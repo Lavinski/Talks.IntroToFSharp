@@ -1,4 +1,4 @@
-﻿namespace Talks.IntroToFSharp.AssemblyInfo
+﻿namespace SharpTalk.TwitterAlertService.AssemblyInfo
 
 open System.Reflection
 open System.Runtime.CompilerServices
@@ -7,11 +7,11 @@ open System.Runtime.InteropServices
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[<assembly: AssemblyTitle("Talks.IntroToFSharp")>]
+[<assembly: AssemblyTitle("SharpTalk.TwitterAlertService")>]
 [<assembly: AssemblyDescription("")>]
 [<assembly: AssemblyConfiguration("")>]
 [<assembly: AssemblyCompany("")>]
-[<assembly: AssemblyProduct("Talks.IntroToFSharp")>]
+[<assembly: AssemblyProduct("SharpTalk.TwitterAlertService")>]
 [<assembly: AssemblyCopyright("Copyright ©  2017")>]
 [<assembly: AssemblyTrademark("")>]
 [<assembly: AssemblyCulture("")>]
@@ -22,7 +22,7 @@ open System.Runtime.InteropServices
 [<assembly: ComVisible(false)>]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[<assembly: Guid("83667287-478f-4f2a-9bae-8979528ab8b8")>]
+[<assembly: Guid("19b0caeb-f0c3-4279-a139-eb32adf79d62")>]
 
 // Version information for an assembly consists of the following four values:
 // 
