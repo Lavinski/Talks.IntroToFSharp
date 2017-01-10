@@ -15,6 +15,14 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "SharpTalk.Twitter.Alerts", 
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "SharpTalk.TwitterAlertService", "SharpTalk.TwitterAlertService\SharpTalk.TwitterAlertService.fsproj", "{19B0CAEB-F0C3-4279-A139-EB32ADF79D62}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "SharpTalk.Serilog", "SharpTalk.Serilog\SharpTalk.Serilog.fsproj", "{290C1100-4CC7-416C-8136-658817BD1FB0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{63251F2D-81BE-494D-8D72-5BA7D6D35EEA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{D9BA984F-8C44-4B38-8A94-A27FFD822E79}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "SharpTalk.Tests", "SharpTalk.Tests\SharpTalk.Tests.fsproj", "{62240669-90D6-408F-9459-A4DEE95A776A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,8 +37,22 @@ Global
 		{19B0CAEB-F0C3-4279-A139-EB32ADF79D62}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{19B0CAEB-F0C3-4279-A139-EB32ADF79D62}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{19B0CAEB-F0C3-4279-A139-EB32ADF79D62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{290C1100-4CC7-416C-8136-658817BD1FB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{290C1100-4CC7-416C-8136-658817BD1FB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{290C1100-4CC7-416C-8136-658817BD1FB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{290C1100-4CC7-416C-8136-658817BD1FB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62240669-90D6-408F-9459-A4DEE95A776A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62240669-90D6-408F-9459-A4DEE95A776A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62240669-90D6-408F-9459-A4DEE95A776A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62240669-90D6-408F-9459-A4DEE95A776A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B691A89E-BC25-46EC-8176-421A52AD3273} = {63251F2D-81BE-494D-8D72-5BA7D6D35EEA}
+		{19B0CAEB-F0C3-4279-A139-EB32ADF79D62} = {63251F2D-81BE-494D-8D72-5BA7D6D35EEA}
+		{290C1100-4CC7-416C-8136-658817BD1FB0} = {63251F2D-81BE-494D-8D72-5BA7D6D35EEA}
+		{62240669-90D6-408F-9459-A4DEE95A776A} = {D9BA984F-8C44-4B38-8A94-A27FFD822E79}
 	EndGlobalSection
 EndGlobal

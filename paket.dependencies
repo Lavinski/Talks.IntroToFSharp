@@ -2,44 +2,41 @@ framework: auto-detect
 redirects: on
 source https://www.nuget.org/api/v2
 
-#Core
+# Core
 nuget Akka
 nuget Akka.Remote
 nuget Akka.Cluster
 nuget Akka.Cluster.Sharding
 nuget Akka.Logger.Serilog
-nuget Akka.Cluster.Tools 1.0.6
+nuget Akka.Cluster.Tools
 nuget Akka.Serialization.Wire
 nuget Newtonsoft.Json
 nuget FsPickler
 nuget Serilog
 nuget Serilog.Sinks.ColoredConsole
 nuget Serilog.Sinks.Seq
-nuget TypeShape
-nuget FSharp.Interop.Dynamic
 nuget System.Collections.Immutable
 
-source ./LocalPackages
 nuget Akkling >= 0.4.0
 nuget Akkling.Persistence >= 0.4.0
 nuget Akkling.Cluster.Sharding >= 0.4.0
 nuget Akkling.TestKit >= 0.4.0
 
-#Tests
+# Tests
+redirects: on
+source https://www.nuget.org/api/v2
+
+nuget xunit
+nuget xunit.runner.visualstudio
+
 nuget FsUnit
-nuget SpecFlow
-nuget SpecFlow.NUnit
-nuget SpecFlow.NUnit.Runners
-nuget NUnitTestAdapter
-nuget EventStore.Client.Embedded
 nuget Akka.TestKit
-nuget Akka.TestKit.NUnit3
-nuget Serilog.Sinks.Console
+nuget Akka.TestKit.Xunit2
 
 group Build
     redirects: off
     source https://nuget.org/api/v2
 
     nuget FAKE
-	nuget FSharp.Data
+    nuget FSharp.Data
 

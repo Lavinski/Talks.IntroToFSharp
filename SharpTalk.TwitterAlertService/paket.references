@@ -1,0 +1,4 @@
+Akka
+Akka.Logger.Serilog
+Akkling
+Serilog.Sinks.ColoredConsole
